@@ -1,60 +1,73 @@
 # Simranjit Singh
 
-Computer Science student at the University of Alberta building software at the intersection of **software engineering, cybersecurity, AI systems, and agent reliability**.
+Computer Science student at the University of Alberta building software, AI systems, automation, and security tooling.
 
-I focus on turning ambiguous technical problems into systems with explicit boundaries, observable evidence, and practical failure handling. My current work spans AI-agent integrity, API/data automation, network tooling, and media-processing applications.
+I like working on systems where correctness, evidence, reliability, and real-world deployment matter — from production automation pipelines to deterministic controls for AI-agent workflows.
 
-## Selected Projects
+## Focus
 
-### [Agent Review Control (ARC)](https://github.com/SimranPabla/agent-review-control)
-Upstream integrity and reliability architecture for AI coding agents built around **Contract + Evidence + Verdict**.
+- Software engineering and backend systems
+- AI / LLM integrations and agentic systems
+- Cybersecurity, networking, and DevSecOps
+- APIs, automation, testing, and release reliability
+- Open-source engineering
 
-- Reconstructs project state from canonical artifacts rather than treating chat history as authoritative.
-- Freezes task scope, acceptance criteria, risk boundaries, and required evidence before execution.
-- Separates upstream contract/evidence integrity from downstream execution-governance systems.
-- Public repository contains architecture and dogfood evidence; active deterministic implementation work remains private.
+## Technical Stack
 
-### [CyberFlow Sentinel](https://github.com/SimranPabla/Cybersecurity-Articles-Storytelling-Videos)
-Production-operated AI/data/API automation pipeline for cybersecurity content processing.
+**Languages:** Python, TypeScript / JavaScript, SQL, Bash, HTML/CSS  
+**Systems:** Linux, Docker, Git, GitHub, GitLab, Windows Server  
+**APIs & Automation:** REST APIs, OpenAI API, n8n, Airtable, workflow automation  
+**Cloud & Infrastructure:** DigitalOcean, Apache, TLS, networking, Active Directory  
+**Security:** TCP/IP, DNS, DHCP, VPNs, firewalls, packet analysis
 
-- Processes **50+ cybersecurity articles per day**.
-- Reduced manual workflow effort by approximately **90%**.
-- Supports published content reaching approximately **10,000 weekly viewers**.
-- Integrates n8n, OpenAI API, Airtable, Pictory API, REST APIs, Docker, Linux, DigitalOcean, Apache, TLS, and social-platform APIs.
+## Selected Work
 
-### [Packet Sniffer](https://github.com/SimranPabla/Packet-Sniffer)
-Python + Scapy CLI for live network packet capture and inspection.
+### Agent Integrity
+**Deterministic verification and release control for AI responses**
 
-- Supports summary/detail output and BPF capture filters.
-- Streams captured text to stdout or an output file.
-- Documents privilege requirements, limitations, and responsible-use boundaries.
+A public TypeScript system that binds AI outputs to structured claims, evidence, sources, decisions, and policy, independently verifies them, and re-checks the exact approved response before release.
 
-### [VideoGen Pro](https://github.com/SimranPabla/VideoGen-Pro)
-Flask media-processing prototype using Whisper and MoviePy/FFmpeg.
+[View repository](https://github.com/SimranPabla/agent-integrity)
 
-- Image/audio workflow with drag-and-drop ordering.
-- Whisper transcription with CPU/CUDA selection through PyTorch.
-- Background H.264/AAC rendering with Server-Sent Events progress reporting.
-- Explicitly documents current single-process reliability and security limitations.
+### ARC — Agent Review Control
+**Contract + Evidence + Verdict for AI coding-agent work**
+
+ARC checks whether an AI coding agent stayed within its approved assignment. It compares actual Git changes and command/test evidence against a predefined contract and produces a reviewer-facing `Pass`, `Needs Review`, or `Blocked` verdict.
+
+[View repository](https://github.com/SimranPabla/agent-review-control)
+
+### CyberFlow Sentinel
+**Production AI, API, and workflow-automation pipeline**
+
+Built an end-to-end cybersecurity automation system processing 50+ articles per day across ingestion, extraction, filtering, categorization, deduplication, structured storage, LLM transformation, video orchestration, and publishing. Reduced manual processing by approximately 90%.
+
+**Stack:** OpenAI API, REST APIs, n8n, Airtable, Docker, Linux, DigitalOcean, Apache
+
+[View repository](https://github.com/SimranPabla/Cybersecurity-Articles-Storytelling-Videos)
+
+### Packet Sniffer
+Python + Scapy command-line packet-analysis tool with protocol filtering, BPF filters, detailed packet inspection, and PCAP export.
+
+[View repository](https://github.com/SimranPabla/Packet-Sniffer)
+
+### VideoGen Pro
+Flask-based application for automating video generation and media-processing workflows.
+
+[View repository](https://github.com/SimranPabla/VideoGen-Pro)
 
 ## Open Source
 
-- **OpenClaw** — [merged PR #111534](https://github.com/openclaw/openclaw/pull/111534): fixed Linux gateway restart behavior when a process inherits cross-user D-Bus state, with regression tests and real systemd validation.
-- **Google CAGE** — [issue #53](https://github.com/google/cybernetic-agent-governance-engine/issues/53): identified a governance-boundary inconsistency that collapsed human-review semantics into `DEFER`; the issue was closed after the project resolved the identified behavior.
+Contributed an upstream TypeScript/Linux fix to OpenClaw addressing gateway restart behavior under inherited cross-user D-Bus state, with regression coverage across multiple configurations.
 
-## Technical Areas
+## Education & Certifications
 
-**Programming:** Python, TypeScript/JavaScript, SQL, Bash/Shell  
-**Software:** REST APIs, Flask, Git/GitHub, Docker, n8n, FFmpeg  
-**AI systems:** OpenAI API, Whisper, LLM workflows, agent reliability, evidence/contract integrity  
-**Systems:** Linux/Unix, Apache, Windows Server  
-**Networking & security:** TCP/IP, DNS, DHCP, Active Directory, Scapy, firewalls
+**B.Sc. Computing Science — University of Alberta**  
+Expected 2029
 
-## Certifications
+**Computer Systems Technician — Networking — Centennial College**
 
-CompTIA Security+ · ISC2 Certified in Cybersecurity (CC) · EC-Council CCT · CompTIA A+
+CompTIA Security+ · CompTIA A+ · ISC2 Certified in Cybersecurity (CC) · EC-Council CCT
 
-## Links
+## Connect
 
-- Portfolio: [simranpabla.com](https://simranpabla.com)
-- LinkedIn: [linkedin.com/in/simranjit-singh-pabla](https://www.linkedin.com/in/simranjit-singh-pabla/)
+[LinkedIn](https://www.linkedin.com/in/simranjit-singh-pabla/) · [GitHub](https://github.com/SimranPabla)
