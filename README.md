@@ -57,7 +57,9 @@ Flask-based application for automating video generation and media-processing wor
 
 ## Open Source
 
-Contributed an upstream TypeScript/Linux fix to OpenClaw addressing gateway restart behavior under inherited cross-user D-Bus state, with regression coverage across multiple configurations.
+Contributed a merged upstream TypeScript/Linux fix to OpenClaw addressing gateway restart behavior under inherited cross-user D-Bus state, with regression coverage across multiple configurations.
+
+[View merged Contribution](https://github.com/openclaw/openclaw/pull/111534)
 
 ## Education & Certifications
 
